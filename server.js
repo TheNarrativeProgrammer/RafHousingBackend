@@ -11,8 +11,11 @@ import verifyToken from "./authMiddleware.js";
 import pool from "./db.js";
 
 
-//telemetry
+
 import path from 'path';
+import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 import bodyParser from 'body-parser';
 import fs from "fs";
 
@@ -142,4 +145,5 @@ app.post("/syncLocalClientWithCloud", (req, res) => {
         return res.status(500).send("server error");
     }
 });
+
 
