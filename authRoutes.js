@@ -42,7 +42,7 @@ router.post("/signup", async (req, res) => {
 
         await pool.query(
             "INSERT INTO users(username, email, password_hash) VALUES (?, ?, ?)",
-            [username, email, hashedPassword]
+            [username, email, hashPassword]
         );
 
         res.status(201).json({ message: "user created successfully." });
@@ -66,10 +66,11 @@ router.post("/signin", async (req, res) => {
 
         //[existing] -> were by default getting the whole table [[]] and [existing] limits this to just the rows []
         const [existing] = await pool.query(
-            "SELECT id, username, password_has FROM users WHERE username = ?",
+            "SELECT id, username, password_hash FROM users WHERE username = ?",
             [username]
         );
 
+        
         if (existing.length === 0) {
             return res.status(401).json({ message: "Invalid credentials" });
         }
@@ -81,7 +82,10 @@ router.post("/signin", async (req, res) => {
         //table has passord_hash column, which is defined above in "SELECT id, username, password_has FROM users WHERE username = ?",
         const user = existing[0];
 
-        const match = await bcrypt.compare(password, user.passord_hash);
+        console.log(password, user.password_hash);
+        console.log(user);
+
+        const match = await bcrypt.compare(password, user.password_hash);
         //if there is no match, then return error that doesn't give too much into
         if (!match) {
             return res.status(401).json({ message: "Invalid credentials" });

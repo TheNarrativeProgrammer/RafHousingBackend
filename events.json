@@ -1,0 +1,446 @@
+[
+  {
+    "keys": [
+      "Heading",
+      "TimeSinceLaunch",
+      "SliderValue",
+      "HousesOnBaord",
+      "eventName",
+      "sessionId",
+      "device"
+    ],
+    "values": [
+      "SliderChange",
+      "6.998216",
+      "0.4146759",
+      "53",
+      "UserInput",
+      "d46eaae4-1453-41c6-a6d0-b0a4839d7234",
+      "2025-04-19T06:19:06.5854561Z"
+    ]
+  },
+  {
+    "keys": [
+      "Heading",
+      "TimeSinceLaunch",
+      "SliderValue",
+      "HousesOnBaord",
+      "eventName",
+      "sessionId",
+      "device"
+    ],
+    "values": [
+      "SliderChange",
+      "7.017982",
+      "0.418232",
+      "53",
+      "UserInput",
+      "f4f674a2-9bf7-493f-95c7-99cc59fff155",
+      "2025-04-19T06:19:06.6047889Z"
+    ]
+  },
+  {
+    "keys": [
+      "Heading",
+      "TimeSinceLaunch",
+      "SliderValue",
+      "HousesOnBaord",
+      "eventName",
+      "sessionId",
+      "device"
+    ],
+    "values": [
+      "SliderChange",
+      "7.035343",
+      "0.4217881",
+      "53",
+      "UserInput",
+      "194c4b2a-b801-4ed6-87eb-5f3d80533cff",
+      "2025-04-19T06:19:06.6226372Z"
+    ]
+  },
+  {
+    "keys": [
+      "Heading",
+      "TimeSinceLaunch",
+      "SliderValue",
+      "HousesOnBaord",
+      "eventName",
+      "sessionId",
+      "device"
+    ],
+    "values": [
+      "SliderChange",
+      "7.049131",
+      "0.4253442",
+      "53",
+      "UserInput",
+      "7deea121-ae00-4581-82ac-1a129ffdf7f9",
+      "2025-04-19T06:19:06.6366699Z"
+    ]
+  },
+  {
+    "keys": [
+      "Heading",
+      "TimeSinceLaunch",
+      "SliderValue",
+      "HousesOnBaord",
+      "eventName",
+      "sessionId",
+      "device"
+    ],
+    "values": [
+      "SliderChange",
+      "7.064931",
+      "0.4324563",
+      "53",
+      "UserInput",
+      "047d5f8e-512f-4f4e-8beb-fd0712582385",
+      "2025-04-19T06:19:06.6520208Z"
+    ]
+  },
+  {
+    "keys": [
+      "Heading",
+      "TimeSinceLaunch",
+      "SliderValue",
+      "HousesOnBaord",
+      "eventName",
+      "sessionId",
+      "device"
+    ],
+    "values": [
+      "SliderChange",
+      "7.070857",
+      "0.4360124",
+      "53",
+      "UserInput",
+      "00a3e7fe-9e05-4ec2-9714-de78256dfd85",
+      "2025-04-19T06:19:06.6580041Z"
+    ]
+  },
+  {
+    "keys": [
+      "Heading",
+      "TimeSinceLaunch",
+      "SliderValue",
+      "HousesOnBaord",
+      "eventName",
+      "sessionId",
+      "device"
+    ],
+    "values": [
+      "SliderChange",
+      "7.087007",
+      "0.4466807",
+      "53",
+      "UserInput",
+      "624dabb7-5c57-4390-9615-b8f5802142f9",
+      "2025-04-19T06:19:06.6742541Z"
+    ]
+  },
+  {
+    "keys": [
+      "Heading",
+      "eventName",
+      "sessionId",
+      "device"
+    ],
+    "values": [
+      "LaunchGame",
+      "session_start",
+      "a2707b9b-4605-4d3d-a407-26e745b371c8",
+      "2025-04-19T06:24:10.4068236Z"
+    ]
+  },
+  {
+    "keys": [
+      "Heading",
+      "TimeSinceLaunch",
+      "SliderValue",
+      "HousesOnBaord",
+      "eventName",
+      "sessionId",
+      "device"
+    ],
+    "values": [
+      "SliderChange",
+      "4.482829",
+      "0.3791151",
+      "53",
+      "UserInput",
+      "0e320863-253f-448b-8bf0-6a611ec55591",
+      "2025-04-19T06:24:15.3164261Z"
+    ]
+  },
+  {
+    "keys": [
+      "Heading",
+      "TimeSinceLaunch",
+      "SliderValue",
+      "HousesOnBaord",
+      "eventName",
+      "sessionId",
+      "device"
+    ],
+    "values": [
+      "SliderChange",
+      "4.490311",
+      "0.3826711",
+      "53",
+      "UserInput",
+      "f6a9a5ac-4364-4b85-8f70-dfe3d901279f",
+      "2025-04-19T06:24:15.3223752Z"
+    ]
+  },
+  {
+    "keys": [
+      "Heading",
+      "TimeSinceLaunch",
+      "SliderValue",
+      "HousesOnBaord",
+      "eventName",
+      "sessionId",
+      "device"
+    ],
+    "values": [
+      "SliderChange",
+      "4.501931",
+      "0.3897833",
+      "53",
+      "UserInput",
+      "f5639a41-d316-4b9f-9eb0-27ec9a841f03",
+      "2025-04-19T06:24:15.3333579Z"
+    ]
+  },
+  {
+    "keys": [
+      "Heading",
+      "TimeSinceLaunch",
+      "SliderValue",
+      "HousesOnBaord",
+      "eventName",
+      "sessionId",
+      "device"
+    ],
+    "values": [
+      "SliderChange",
+      "4.508203",
+      "0.3968955",
+      "53",
+      "UserInput",
+      "51f78ad3-08ac-43a7-899d-97716e563d95",
+      "2025-04-19T06:24:15.3402127Z"
+    ]
+  },
+  {
+    "keys": [
+      "Heading",
+      "TimeSinceLaunch",
+      "SliderValue",
+      "HousesOnBaord",
+      "eventName",
+      "sessionId",
+      "device"
+    ],
+    "values": [
+      "SliderChange",
+      "4.51424",
+      "0.4075638",
+      "53",
+      "UserInput",
+      "7964e205-bb30-4a17-af94-c22a0451f282",
+      "2025-04-19T06:24:15.3458444Z"
+    ]
+  },
+  {
+    "keys": [
+      "Heading",
+      "TimeSinceLaunch",
+      "SliderValue",
+      "HousesOnBaord",
+      "eventName",
+      "sessionId",
+      "device"
+    ],
+    "values": [
+      "SliderChange",
+      "4.526248",
+      "0.418232",
+      "53",
+      "UserInput",
+      "7628e5dd-6326-4b95-af5b-0d9cfdf9c2bc",
+      "2025-04-19T06:24:15.3584610Z"
+    ]
+  },
+  {
+    "keys": [
+      "Heading",
+      "TimeSinceLaunch",
+      "SliderValue",
+      "HousesOnBaord",
+      "eventName",
+      "sessionId",
+      "device"
+    ],
+    "values": [
+      "SliderChange",
+      "4.531971",
+      "0.4289003",
+      "53",
+      "UserInput",
+      "61090315-6537-41b2-89ec-8ba8e20dc1fb",
+      "2025-04-19T06:24:15.3634489Z"
+    ]
+  },
+  {
+    "keys": [
+      "Heading",
+      "TimeSinceLaunch",
+      "SliderValue",
+      "HousesOnBaord",
+      "eventName",
+      "sessionId",
+      "device"
+    ],
+    "values": [
+      "SliderChange",
+      "4.542449",
+      "0.4395686",
+      "53",
+      "UserInput",
+      "8707f2a2-3487-4168-9efd-7b0fd2377348",
+      "2025-04-19T06:24:15.3747714Z"
+    ]
+  },
+  {
+    "keys": [
+      "Heading",
+      "TimeSinceLaunch",
+      "SliderValue",
+      "HousesOnBaord",
+      "eventName",
+      "sessionId",
+      "device"
+    ],
+    "values": [
+      "SliderChange",
+      "4.547854",
+      "0.4502368",
+      "53",
+      "UserInput",
+      "57876535-d5cf-47cb-9bc5-9204839eefc0",
+      "2025-04-19T06:24:15.3797911Z"
+    ]
+  },
+  {
+    "keys": [
+      "Heading",
+      "TimeSinceLaunch",
+      "SliderValue",
+      "HousesOnBaord",
+      "eventName",
+      "sessionId",
+      "device"
+    ],
+    "values": [
+      "SliderChange",
+      "4.559034",
+      "0.4644612",
+      "53",
+      "UserInput",
+      "d5d54b00-ccbd-4603-b7da-e8d83267f5b4",
+      "2025-04-19T06:24:15.3906030Z"
+    ]
+  },
+  {
+    "keys": [
+      "Heading",
+      "TimeSinceLaunch",
+      "SliderValue",
+      "HousesOnBaord",
+      "eventName",
+      "sessionId",
+      "device"
+    ],
+    "values": [
+      "SliderChange",
+      "4.564395",
+      "0.4786855",
+      "53",
+      "UserInput",
+      "12d2f066-1f4e-45ab-ae78-ac5950afe8bf",
+      "2025-04-19T06:24:15.3965845Z"
+    ]
+  },
+  {
+    "keys": [
+      "Heading",
+      "TimeSinceLaunch",
+      "SliderValue",
+      "HousesOnBaord",
+      "eventName",
+      "sessionId",
+      "device"
+    ],
+    "values": [
+      "SliderChange",
+      "4.569121",
+      "0.4929099",
+      "53",
+      "UserInput",
+      "1fbc8a96-1edb-42b3-b0dc-bce9111dff4b",
+      "2025-04-19T06:24:15.4005736Z"
+    ]
+  },
+  {
+    "keys": [
+      "Heading",
+      "TimeSinceLaunch",
+      "SliderValue",
+      "HousesOnBaord",
+      "eventName",
+      "sessionId",
+      "device"
+    ],
+    "values": [
+      "SliderChange",
+      "4.579896",
+      "0.5142465",
+      "53",
+      "UserInput",
+      "ffaf591d-32de-47ae-8e9a-f7697c9d56d0",
+      "2025-04-19T06:24:15.4122879Z"
+    ]
+  },
+  {
+    "keys": [
+      "Heading",
+      "eventName",
+      "sessionId",
+      "device"
+    ],
+    "values": [
+      "LaunchGame",
+      "session_start",
+      "a8994d9c-270c-4e86-a3cc-22570f31566f",
+      "2025-04-19T06:27:25.0874777Z"
+    ]
+  },
+  {
+    "keys": [
+      "Heading",
+      "duration_seconds",
+      "eventName",
+      "sessionId",
+      "device"
+    ],
+    "values": [
+      "EndGame",
+      "1.389914",
+      "session_end",
+      "fe4ebde5-2b8e-47cd-a376-71828d94e3ca",
+      "2025-04-19T06:27:26.9022906Z"
+    ]
+  }
+]

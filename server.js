@@ -35,7 +35,8 @@ app.use(bodyParser.urlencoded({ extended: true }));                             
 app.use(bodyParser.json());
 
 //PATHS - path to store stuff. Where to save data on backend. Store as Jsons
-const PATH = path.join("./", "event.json");                                             //TELEMETRY - path for saving telemety data                                          
+const PATH = path.join(__dirname, "events.json");
+//const PATH = path.join("./", "events.json");                                             //TELEMETRY - path for saving telemety data                                          
 const SERVER_DATA_FILE = path.join(__dirname, "RafHousingGameStateData.json");          //CLOUD SAVING - path for saving game state
 
 
@@ -66,14 +67,16 @@ app.listen(PORT, () => {
 
 
 //TELEMETRY - POST
-app.post('/telemetry', (req, res) => {
+app.post('/rafHousingTelemtry', (req, res) => {
     try {
-        const rawData = req.body;
+        const eventData = req.body;
+        console.error(eventData);
         let exisingEvents = [];
         if (fs.existsSync(PATH)) {
-            const rawData = fs.readFileSync(PATH, "utf-8");
-            if (rawData.length > 0) {
-                exisingEvents = JSON.parse(rawData);
+            const fileContent = fs.readFileSync(PATH, "utf-8");
+            if (fileContent.length > 0) {
+                exisingEvents = JSON.parse(fileContent);
+                console.error("parsed");
             }
         }
         exisingEvents.push(eventData);
@@ -122,7 +125,7 @@ function saveServerData(serverData) {
 
 //CLOUD SAVING - POST
 app.post("/syncLocalClientWithCloud", (req, res) => {
-    const clientPlainJson = req.body.plainJson;                 //req returns plain JSON within the header. The header is named 'plainJson.' This header contains all the data
+    const clientPlainJson = req.body.plainJson;                 //req returns plain JSON within the a field. The field is not a header, but it's a key/value pair within the body
     if (!clientPlainJson) {                                     //check if plainJson is valid
         return res.status(400).send("no json provided");
     }
